@@ -56,8 +56,7 @@ def currentUser(request):
 def updateUser(request):
     user = request.user
 
-
-    data = request.data
+    data = request.data    
 
     user.first_name = data['first_name']
     user.last_name = data['last_name']
@@ -72,5 +71,6 @@ def updateUser(request):
     serializer = UserSerializer(user, many=False)
     return Response(serializer.data)
 
+handler500 = 'rest_framework.exceptions.server_error'
 
 
