@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.26.0",
     "cookie": "^0.4.2",
+    "mapbox-gl": "^2.7.0",
     "moment": "^2.29.1",
     "next": "12.1.0",
     "react": "17.0.2",
