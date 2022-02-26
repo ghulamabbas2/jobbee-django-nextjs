@@ -78,9 +78,7 @@ const UploadResume = ({ access_token }) => {
                 <>
                   <h4 className="text-center my-3">OR</h4>
 
-                  <Link
-                    href={`https://jobbee-api.s3.amazonaws.com/${user.resume}`}
-                  >
+                  <Link href={`https://jobbee.s3.amazonaws.com/${user.resume}`}>
                     <a
                       className="text-success text-center ml-4"
                       rel="noreferrer"
