@@ -1,0 +1,3 @@
+backend/.env
+static/
+db.sqlite3
